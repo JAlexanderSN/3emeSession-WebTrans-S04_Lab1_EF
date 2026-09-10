@@ -8,7 +8,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ZombiePartyDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
 // Injection des dépendances
 builder.Services.AddSingleton<BaseDonnees>();
 
