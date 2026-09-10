@@ -4,6 +4,9 @@ namespace ZombieParty.Models
 {
     public class Zombie
     {
+
+        public int Id { get; set; }
+
         public string Name { get; set; }
 
         [Display(Name = "Zombie Type")]
